@@ -32,6 +32,8 @@ The Titanic dataset consists of two files: `train.csv` for training the models a
 - **Survival by Gender**: Women had a significantly higher survival rate than men.
 - **Survival by Class**: Passengers in 1st class had a much higher survival rate compared to those in 3rd class.
 - **Survival by Age**: Younger passengers had a higher likelihood of survival.
+- **Family Size**: Larger families had a slightly lower survival rate, while individuals and small families had better chances.
+- **Embarkation Port**: Passengers who embarked from Cherbourg had a higher survival rate compared to those who embarked from Southampton.
 
 ---
 
@@ -90,30 +92,4 @@ In addition to basic model training, hyperparameter tuning was applied to optimi
 
 ## **8. Conclusion**
 
-- **Key Insights**: The analysis confirms that women, children, and first-class passengers had a higher chance of survival. Age and family size also influenced survival probabilities.
-- **Model Performance**: The SVM model performed the best with an accuracy of 83.16% after hyperparameter tuning.
-- **Next Steps**: Further improvement could be made by exploring more advanced ensemble methods such as Gradient Boosting or applying more complex feature engineering techniques.
-
----
-
-## **9. Kaggle Submission**
-
-The final submission file (`titanic_submission.csv`) was created, containing two columns:
-- **PassengerId**: Unique passenger ID from the test set.
-- **Survived**: Predicted survival (0 or 1) from the best-performing SVM model.
-
----
-
-## **10. Code Submission**
-
-The complete code is documented and available on GitHub at [repository link], which contains:
-- Preprocessing steps.
-- Model training with cross-validation.
-- Hyperparameter tuning.
-- Submission file generation.
-
----
-
-## **References**
-- [Kaggle Titanic Competition](https://www.kaggle.com/c/titanic)
-- [Scikit-learn Documentation](https://scikit-learn.org/stable/)
+- **Key Insights**: The analysis confirms that women, children, and first-class passengers had a higher chance of survival. Age and family size
